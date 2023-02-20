@@ -1,0 +1,104 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: bisque;
+}
+h2 {
+    font-weight: 700;
+}
+h4, h3 {
+    font-weight: 400;
+}
+.heading-text{
+    color: dimgrey;
+}
+
+#book-item {
+    background-color: mediumaquamarine;
+    opacity: 100%;
+    width: 333px;
+    line-height: 20%;
+    padding-block: 2rem;
+    padding-left: 1.5rem;
+   outline: auto goldenrod;
+   border-radius: .5rem;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.heading-text {
+    text-align: center;
+}
+
+.btn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    border-radius: 1rem;
+    padding: .3rem 1.2rem;
+}
+
+.myClass {
+    font-size: large;
+    color: grey;
+    opacity: 60%;
+    font-style: italic;
+    text-decoration: Line-through;
+
+}
+.read{
+    color:white;
+    background-color: goldenrod;
+    opacity: .7;
+}
+.read:hover{opacity: 1}
+
+.remove {
+font-size: smaller;
+color: white;
+background-color: indianred;
+opacity: .7;
+}
+
+.remove:hover {opacity: 1}
+
+
+.add {
+    font-weight: bold;
+    padding: .5rem;
+    font-size: 18px;
+    background-color: palevioletred;
+    position: float;
+    color: white;
+}
+
+#popupForm {
+    background-color :honeydew;
+    max-width: fit-content;
+    padding: 3rem;
+    outline: auto ;
+}
+label {
+    font-weight: bold;
+}
+
+.bookPopup {
+    display: none;
+    position: fixed;
+    left: 45%;
+    top: 5%;
+    transform: translate(-50%, 5%);
+    border: 3px solid grey;
+    border-radius: 2.5%;
+    z-index: 9;
+}
+
+.bookshelf{
+    display: flex;
+    width: 80%;
+}
+.book{
+    margin: 10px;
+}
